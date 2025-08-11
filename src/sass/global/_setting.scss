@@ -74,6 +74,8 @@ $padding-sp: 20px;
   --duration-base: 0.3s;
   --duration-long: 0.6s;
   --duration-fv: 0.7s;
+
+  --ease-smooth-bounce: cubic-bezier(.48, .07, .33, .79);
 }
 
 ////////////////////
