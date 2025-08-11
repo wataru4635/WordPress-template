@@ -21,6 +21,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* デフォルトの余白とパディングを削除 */

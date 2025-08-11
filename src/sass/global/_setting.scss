@@ -35,7 +35,10 @@ $padding-sp: 20px;
 :root {
   --black: #000;
   --white: #fff;
-  --bg-color: #fff;
+  --text-black: #1E1E1E;
+  --main-color: #9E895B;
+  --main-black: #585757;
+  --main-red: #FE3101;
 }
 
 ////////////////////
@@ -50,10 +53,34 @@ $padding-sp: 20px;
 }
 
 ////////////////////
+// 余白
+///////////////////
+
+:root {
+  --section-padding-block: calc(50 / 16 * 1rem);
+}
+@media (min-width: 767px) {
+  :root {
+    --section-padding-block: calc(100 / 16 * 1rem);
+  }
+}
+
+////////////////////
+// アニメーション設定
+///////////////////
+
+:root {
+  --duration-short: 0.2s;
+  --duration-base: 0.3s;
+  --duration-long: 0.6s;
+  --duration-fv: 0.7s;
+}
+
+////////////////////
 // bodyの指定
 ////////////////////
 
 body {
-  color: var(--black);
+  color: var(--text-black);
   font-family: var(--font-family-base);
 }
