@@ -15,6 +15,11 @@
 
     const observer = new IntersectionObserver(handleIntersect);
 
+    // 発火が早い場合：要素の20%が表示されたときに発火
+    // const observer = new IntersectionObserver(handleIntersect, {
+    //   threshold: 0.2
+    // });
+
     elements.forEach((element) => observer.observe(element));
   }
 

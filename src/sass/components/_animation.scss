@@ -120,7 +120,7 @@
   overflow: hidden;
   img {
     scale: 1.2;
-    transition: scale .8s ease, opacity .8s var(--ease-smooth-bounce);
+    transition: scale .8s ease, opacity .8s ease;
     opacity: 0;
   }
   &.is-active img {
